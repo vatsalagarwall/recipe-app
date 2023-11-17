@@ -37,7 +37,7 @@ function App() {
         <h1>Recipe App</h1>
         <form onSubmit={updateQuery}>
           <input type='text' value={search} placeholder='Wanna have Pasta?' onChange={updateSearch} className='input-field' />
-          <button type='submit' className='search-btn'>Let's Get Cooking</button>
+          <button type='submit' className='search-btn'>Search</button>
         </form>
       </header>
 
