@@ -5,7 +5,9 @@ const Recipe = ({ title, calories, image, ingredients, serves }) => {
   return (
     <div className="recipe">
       <h2>{title}</h2>
-      <p>{/* <b>Calories:</b> {Math.ceil(calories)} */}</p>
+      <p>
+        <b>Calories:</b> {Math.ceil(calories)}
+      </p>
       <p>
         <b>Serves:</b> {serves}
       </p>
